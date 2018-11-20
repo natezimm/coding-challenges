@@ -12,4 +12,5 @@ function isSubsequence(str1, str2) {
   return false;
 }
 
-isSubsequence("hello", "hello world");
+isSubsequence("hello", "hello world"); // true
+isSubsequence("jello", "hello world"); // false
