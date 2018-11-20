@@ -25,4 +25,4 @@ function validAnagram(str1, str2){
     return true;
 }
 
-validAnagram("cinema","iceman");
+validAnagram("cinema","iceman"); // true
