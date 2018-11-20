@@ -12,4 +12,4 @@ function reverse(str){
     return revStr;
 }
 
-reverse("awesome");
+reverse("awesome"); // "emosewa"
