@@ -5,3 +5,6 @@ function filterByValue(arr,key){
         return val[key] !== undefined;
     });
 }
+
+filterByValue([{first: 'Mike', last:"Smith"}, {first: 'Bobby', last:"Joe", isDogOwner: true}, {first: 'Joseph', last:"O'Neal"}, {first: 'Dave', last:"Garcia", isDogOwner: true}], 'isDogOwner') 
+// [{first: 'Bobby', last:"Joe", isDogOwner: true}, {first: 'Dave', last:"Garcia", isDogOwner: true}]
