@@ -1,4 +1,4 @@
-// Function searches array of objects and finds first value in array that matches the search parameter
+// Function searches array of objects and finds first value in array
 
 function findInObj(arr, key, searchValue){
     return arr.filter(function(val){
@@ -6,5 +6,5 @@ function findInObj(arr, key, searchValue){
     })[0];
 }
 
-find([1,2,3,4,5], 2) // 2
-find([1,2,3,4,5], 10) // undefined
+findInObj([{first: 'Mike', last:"Smith"}, {first: 'Bobby', last:"Joe", isDogOwner: true}, {first: 'Joseph', last:"O'Neal"}, {first: 'Dave', last:"Garcia", isDogOwner: true}], 'isDogOwner', true) 
+// {first: 'Bobby', last:"Joe", isDogOwner: true}
