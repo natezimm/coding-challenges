@@ -9,3 +9,4 @@ function extractValue(arr, key){
 
     var arr = [{name: 'Tracy'}, {name: 'Zach'}, {name: 'Layla'}, {name: 'Carson'}]
     extractValue(arr,'name') // ['Tracy', 'Zach', 'Layla', 'Carson']
+
