@@ -14,4 +14,4 @@ var arr = [
     ]
 
 hasCertainKey(arr,'title', 'Teacher') // true
-hasCertainKey(arr,'first', 'Bob) // false
+hasCertainKey(arr,'first', 'Bob') // false
