@@ -6,12 +6,12 @@ function hasCertainKey(arr, key){
   })
 }
 
-    var arr = [
-        {title: "Instructor", first: 'Elie', last:"Schoppik"}, 
-        {title: "Instructor", first: 'Tim', last:"Garcia", isCatOwner: true}, 
-        {title: "Instructor", first: 'Matt', last:"Lane"}, 
-        {title: "Instructor", first: 'Colt', last:"Steele", isCatOwner: true}
+var arr = [
+        {title: "Teacher", first: 'Mike', last:"Smith"}, 
+        {title: "Teacher", first: 'Sara', last:"Love", isDogOwner: true}, 
+        {title: "Teacher", first: 'Bob', last:"Hayward"}, 
+        {title: "Teacher", first: 'Laura', last:"Smart", isDogOwner: true}
     ]
-    
-    hasCertainKey(arr,'first') // true
-    hasCertainKey(arr,'isCatOwner') // false
+
+hasCertainKey(arr,'first') // true
+hasCertainKey(arr,'isDogOwner') // false
