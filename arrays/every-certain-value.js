@@ -6,12 +6,12 @@ function hasCertainValue(arr, key, searchValue){
   })
 }
 
-    var arr = [
-        {title: "Instructor", first: 'Elie', last:"Schoppik"}, 
-        {title: "Instructor", first: 'Tim', last:"Garcia", isCatOwner: true}, 
-        {title: "Instructor", first: 'Matt', last:"Lane"}, 
-        {title: "Instructor", first: 'Colt', last:"Steele", isCatOwner: true}
+var arr = [
+        {title: "Teacher", first: 'Mike', last:"Smith"}, 
+        {title: "Teacher", first: 'Sara', last:"Love", isDogOwner: true}, 
+        {title: "Teacher", first: 'Bob', last:"Hayward"}, 
+        {title: "Teacher", first: 'Laura', last:"Smart", isDogOwner: true}
     ]
-    
-    hasCertainValue(arr,'title','Instructor') // true
-    hasCertainValue(arr,'first','Elie') // false
+
+hasCertainKey(arr,'title', 'Teacher') // true
+hasCertainKey(arr,'first', 'Bob) // false
