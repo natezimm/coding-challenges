@@ -1,4 +1,5 @@
 // Function converts km/hr to mph
+// Additional function prints conversion of rates
 
 public class SpeedConverter {
     
@@ -15,5 +16,15 @@ public class SpeedConverter {
         return result;
         
     }
+    
+    public static void printConversion(double kilometresPerHour)
+    {
+        long miles=toMilesPerHour(kilometresPerHour);
+        if (miles==-1)
+        {
+            System.out.println("Invalid Value");
+        }else{
+        System.out.println(kilometresPerHour +" km/h"+" = "+ miles+" mi/h" );
+        }
+    }
 }
-
