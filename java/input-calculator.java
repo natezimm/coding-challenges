@@ -1,3 +1,5 @@
+// Program takes integers and prints out the sum and mean
+
 import java.util.Scanner;
  
 public class InputCalculator {
